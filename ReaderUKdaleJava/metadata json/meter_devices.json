@@ -1,0 +1,121 @@
+{
+  "CurrentCostTx": {
+    "data_logger": {
+      "creators": [
+        "Jack Kelly"
+      ],
+      "model": "rfm_ecomanager_logger",
+      "model_url": "https://github.com/JackKelly/rfm_ecomanager_logger"
+    },
+    "manufacturer": "Current Cost",
+    "max_sample_period": 120,
+    "measurements": [
+      {
+        "lower_limit": 0,
+        "physical_quantity": "power",
+        "type": "apparent",
+        "upper_limit": 25000
+      }
+    ],
+    "model": "CurrentCost Tx",
+    "model_url": "http://www.currentcost.com/product-transmitter.html",
+    "sample_period": 6,
+    "wireless": true,
+    "wireless_configuration": {
+      "base": "creators: [Jack Kelly] model: rfm_edf_ecomanager model_url: https://github.com/JackKelly/rfm_edf_ecomanager/\n",
+      "carrier_frequency": 434,
+      "protocol": "custom"
+    }
+  },
+  "EcoManagerTxPlug": {
+    "brand": "EcoManager",
+    "brand_url": "http://www.edfenergy.com/products-services/for-your-home/ecomanager",
+    "data_logger": {
+      "creators": [
+        "Jack Kelly"
+      ],
+      "model": "rfm_ecomanager_logger",
+      "model_url": "https://github.com/JackKelly/rfm_ecomanager_logger"
+    },
+    "manufacturer": "Current Cost / Sailwider",
+    "max_sample_period": 120,
+    "measurements": [
+      {
+        "lower_limit": 0,
+        "physical_quantity": "power",
+        "type": "active",
+        "upper_limit": 3300
+      }
+    ],
+    "model": "EcoManagerTxPlug",
+    "model_url": "https://shop.edfenergy.com/Item.aspx?id=540",
+    "sample_period": 6,
+    "seller": "EDF Energy",
+    "wireless": true,
+    "wireless_configuration": {
+      "base": "creators: [Jack Kelly] model: rfm_edf_ecomanager model_url: https://github.com/JackKelly/rfm_edf_ecomanager/\n",
+      "carrier_frequency": 434,
+      "protocol": "custom"
+    }
+  },
+  "EcoManagerWholeHouseTx": {
+    "brand": "EcoManager",
+    "brand_url": "http://www.edfenergy.com/products-services/for-your-home/ecomanager",
+    "data_logger": {
+      "creators": [
+        "Jack Kelly"
+      ],
+      "model": "rfm_ecomanager_logger",
+      "model_url": "https://github.com/JackKelly/rfm_ecomanager_logger"
+    },
+    "manufacturer": "Current Cost / Sailwider",
+    "max_sample_period": 120,
+    "measurements": [
+      {
+        "lower_limit": 0,
+        "physical_quantity": "power",
+        "type": "apparent",
+        "upper_limit": 25000
+      }
+    ],
+    "model": "EcoManagerWholeHouseTx",
+    "model_url": "https://shop.edfenergy.com/Item.aspx?id=547",
+    "sample_period": 6,
+    "seller": "EDF Energy",
+    "site_meter": true,
+    "wireless": true,
+    "wireless_configuration": {
+      "base": "creators: [Jack Kelly] model: rfm_edf_ecomanager model_url: https://github.com/JackKelly/rfm_edf_ecomanager/\n",
+      "carrier_frequency": 434,
+      "protocol": "custom"
+    }
+  },
+  "SoundCardPowerMeter": {
+    "manufacturer": "Jack Kelly / Imperial College London",
+    "max_sample_period": 3,
+    "measurements": [
+      {
+        "lower_limit": 0,
+        "physical_quantity": "power",
+        "type": "active",
+        "upper_limit": 25000
+      },
+      {
+        "lower_limit": 0,
+        "physical_quantity": "power",
+        "type": "apparent",
+        "upper_limit": 25000
+      },
+      {
+        "description": "RMS voltage",
+        "lower_limit": 180,
+        "physical_quantity": "voltage",
+        "upper_limit": 275
+      }
+    ],
+    "model": "Sound Card Power Meter",
+    "model_url": "https://github.com/JackKelly/snd_card_power_meter",
+    "sample_period": 1,
+    "wireless": false
+  }
+}
